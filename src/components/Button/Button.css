@@ -1,0 +1,9 @@
+.btn {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 14px;
+  padding: 12px 14px;
+  line-height: 20px;
+  border-radius: 8px;
+  border: none;
+}
