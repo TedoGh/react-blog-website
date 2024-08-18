@@ -1,5 +1,5 @@
 import PostItemCard from "../PostItemCard/PostItemCard";
-import { Category } from "../../Data/CardData";
+import { Category } from "../../data/CardData";
 
 interface Props {
   category: Category;
@@ -7,7 +7,6 @@ interface Props {
 }
 
 export default function RelatedPostItems({ category, PostId }: Props) {
-
   const releatedPosts = category.content.filter((post) => post.id !== PostId);
 
   return (

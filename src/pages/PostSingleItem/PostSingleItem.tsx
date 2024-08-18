@@ -1,6 +1,6 @@
 import "./PostSingleItem.css";
 import { Link, useParams } from "react-router-dom";
-import { Data } from "../../Data/CardData";
+import { Data } from "../../data/CardData";
 import ContainerWrapper from "../../components/ContainerWrapper/ContainerWrapper";
 import Button from "../../components/Button/Button";
 import NotFound from "../NotFound/NotFound";
@@ -20,8 +20,6 @@ export default function PostSingleItem() {
   const previousPost = post.id > 1 && post.id - 1;
 
   const nextPost = post.id < category.content.length && post.id + 1;
-
-  document.title = `${post.title}`;
 
   return (
     <div className="post-item">

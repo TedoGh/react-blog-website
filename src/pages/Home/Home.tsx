@@ -1,8 +1,6 @@
 import Hero from "../../components/Hero/Hero";
 import Posts from "../../components/Posts/Posts";
 export default function Home() {
-  document.title = "Home Page";
-
   return (
     <>
       <Hero

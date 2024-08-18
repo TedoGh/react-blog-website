@@ -1,6 +1,6 @@
 import "./CategoryPosts.css";
 import { useParams } from "react-router-dom";
-import { Data } from "../../Data/CardData";
+import { Data } from "../../data/CardData";
 import Hero from "../../components/Hero/Hero";
 import ContainerWrapper from "../../components/ContainerWrapper/ContainerWrapper";
 import PostItemCard from "../../components/PostItemCard/PostItemCard";
@@ -14,8 +14,6 @@ export default function CategoryPosts() {
   if (!category) {
     return <NotFound title="Category Not Found" />;
   }
-
-  document.title = `Category : ${category.title}`;
 
   return (
     <>

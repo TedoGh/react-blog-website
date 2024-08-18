@@ -12,7 +12,6 @@ export default function NotFound({ title }: Props) {
   const navigateClick = () => {
     navigate(-1);
   };
-  document.title = `${title}`;
   return (
     <div className="notfound">
       <ContainerWrapper>

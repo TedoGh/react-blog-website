@@ -1,5 +1,5 @@
 import "./Posts.css";
-import { Data } from "../../Data/CardData";
+import { Data } from "../../data/CardData";
 import PostItemCard from "../PostItemCard/PostItemCard";
 import ContainerWrapper from "../ContainerWrapper/ContainerWrapper";
 import Button from "../Button/Button";
@@ -11,7 +11,7 @@ export default function Posts() {
       style={{
         padding: "80px 0",
         backgroundColor: "#f2f4f7",
-        marginTop: "80px"
+        marginTop: "80px",
       }}
     >
       <ContainerWrapper>
@@ -26,7 +26,7 @@ export default function Posts() {
                         fontFamily: "Graphik",
                         fontWeight: "bold",
                         fontSize: "26px",
-                        color: "#1d2939"
+                        color: "#1d2939",
                       }}
                     >
                       {item.title}
