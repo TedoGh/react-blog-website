@@ -1,6 +1,6 @@
 import "./PostSingleItem.css";
 import { Link, useParams } from "react-router-dom";
-import { Data } from "../../data/CardData";
+import { Data } from "../../Data/CardData";
 import ContainerWrapper from "../../components/ContainerWrapper/ContainerWrapper";
 import Button from "../../components/Button/Button";
 import NotFound from "../NotFound/NotFound";

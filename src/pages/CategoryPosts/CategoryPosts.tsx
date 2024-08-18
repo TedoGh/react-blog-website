@@ -1,6 +1,6 @@
 import "./CategoryPosts.css";
 import { useParams } from "react-router-dom";
-import { Data } from "../../data/CardData";
+import { Data } from "../../Data/CardData";
 import Hero from "../../components/Hero/Hero";
 import ContainerWrapper from "../../components/ContainerWrapper/ContainerWrapper";
 import PostItemCard from "../../components/PostItemCard/PostItemCard";

@@ -1,5 +1,5 @@
 import PostItemCard from "../PostItemCard/PostItemCard";
-import { Category } from "../../data/CardData";
+import { Category } from "../../Data/CardData";
 
 interface Props {
   category: Category;

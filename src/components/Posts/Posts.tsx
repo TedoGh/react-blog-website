@@ -1,5 +1,5 @@
 import "./Posts.css";
-import { Data } from "../../data/CardData";
+import { Data } from "../../Data/CardData";
 import PostItemCard from "../PostItemCard/PostItemCard";
 import ContainerWrapper from "../ContainerWrapper/ContainerWrapper";
 import Button from "../Button/Button";
